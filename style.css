@@ -1,0 +1,15 @@
+body {
+
+}
+.display{
+  display: inline-block;
+  margin-top: 50px;
+}
+.gradient {
+  float:left;
+  height: 200px;
+  width: 80px;
+}
+#i{
+  background-color: red;
+}
