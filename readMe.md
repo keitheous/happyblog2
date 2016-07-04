@@ -24,12 +24,17 @@
 
 
 
+
+
+
+
+
 ### Wanna read more? Here's my thought process in solving this fun challenge..
-Objectives:
+__Objectives:__
  * Converting between Hexadecimal to Decimal (and vice versa).
  * How do we create an even colour gradient between the two input based on the number of steps given by the user?
 
-## Understanding the Problem
+#### Understanding the Problem
  * First we determine the range between the  two inputs. and then divide the range evenly by the number of steps.
  * In Decimal (Human Language), say if the inputs were:
    1. First Number : 0
@@ -40,20 +45,21 @@ Objectives:
    * Step: 1	  2	   3	  4
    *	     0	  25	 50	  100
 
-## Hexadecimal in RGB
+#### Hexadecimal in RGB
 RGB stands for RED GREEN and BLUE, the three primary colours. Each of these colours (R, G and B) take in 2 significant figures. This result in a SIX digit format. The hash ‘#' sign simply indicates that this is hexadecimal.
 **| _ _ | _ _ | _ _ **
 
-#000000 => WHITE
-#FF0000 => RED
-#00FF00 => GREEN
-#0000FF => BLUE
-#FFFFFF => BLACK
-#FFFF00 => YELLOW
-#00FFFF => BLUE
-#FF00FF => PURPLE
+ * "#000000" => WHITE
 
-## How will i solve this?
+ * "#FF0000" => RED
+      *"#FF00FF" => PURPLE
+ * "#0000FF" => BLUE
+      *#00FF00" => GREEN"
+ * "#FFFF00" => YELLOW
+
+ * "#FFFFFF" => BLACK
+ 
+#### How will i solve this?
 1.	I will first convert these hexadecimal inputs into decimal,
 2.	obtain the range between the two inputs,
 3.	and divide the range equally by the number of parts to obtain the points.
