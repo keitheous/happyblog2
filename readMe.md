@@ -49,16 +49,16 @@ __Objectives:__
 RGB stands for RED GREEN and BLUE, the three primary colours. Each of these colours (R, G and B) take in 2 significant figures. This result in a SIX digit format. The hash ‘#' sign simply indicates that this is hexadecimal.
 **| _ _ | _ _ | _ _ **
 
- * "#000000" => WHITE
+ * __"#000000" => Black
 
- * "#FF0000" => RED
-      *"#FF00FF" => PURPLE
- * "#0000FF" => BLUE
-      *#00FF00" => GREEN"
- * "#FFFF00" => YELLOW
+ * __"#FF0000" => RED__
+ * "#FF00FF" => PURPLE
+ * __"#0000FF" => BLUE__
+ * "#00FF00" => GREEN"
+ * __"#FFFF00" => YELLOW__
 
- * "#FFFFFF" => BLACK
- 
+ * "__#FFFFFF" => WHITE
+
 #### How will i solve this?
 1.	I will first convert these hexadecimal inputs into decimal,
 2.	obtain the range between the two inputs,
