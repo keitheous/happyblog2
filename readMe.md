@@ -15,7 +15,7 @@
 
 4. After converting the numbers, the range between the two colors (xRGB & yRGB) are obtained in order to determine the **Gradient Points** based on the number of steps provided by the user. The formula below is used to determine the Range Factor between these Gradient Points. The Red, Green and Blue transition at their respective pace, **resulting in three separate Range Factors (+ve and -ve values)**. This occur between __Line 13 - 15__.
 
-  `**Range Factor(RED/GREEN/BLUE)** = Math.round((firstColor(R,G or B) - secondColor(R,G, or B))/steps);`
+  `Range Factor(RED/GREEN/BLUE) = Math.round((firstColor(R,G or B) - secondColor(R,G, or B))/steps);`
 
 5. Once the Range Factors are determined, the function can now produce these Gradient Points by adding the Range Factors to the first Red, Green and Blue. The first Gradient Point (equivelent to the first RGB) is declared in __Line 18__. The iteration of incrementation (rather, decrementation as double -ve produces a +ve) which takes part from __Line 19 - 24__, spits out the remaining Gradient Points which are then stored in the output array declared earlier using the **.push** function. While these gradient points are being pushed into the stack, they are also converted into Hexadecimal numbers using the **" .toString(16).toUpperCase() "** function. Again, the radix 16 here simply tells the function to string the data into the hexadecimal numeral system. The **".slice(-2)"** is used to ensured that the output from the conversion is in the format of **"_ _"** . ~~Previous "0" output only had one significant value (a bug). lol ~~
 
