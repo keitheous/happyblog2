@@ -1,3 +1,6 @@
+Code Challenge Preview~
+http://keitheous.com/le_color_steps_fun_challenge/
+Hosted by GH pages!
 
 # Understanding le~ code
 
